@@ -1,0 +1,63 @@
+div 
+{
+    border-style: solid;
+    border-color: seagreen;
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 25px;
+    color: springgreen;
+    border-width: 2px;
+    padding: 20px;
+    letter-spacing: 2px;
+}
+#username,#password
+{
+        
+    border-color: rgb(21, 228, 124);
+    height: 25px;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+}
+.r,.i 
+{
+    border-color: springgreen;
+    border-radius: 24px;
+    height: 29px;
+    width: 100px;
+    color: white;
+    background-color: #27ae60;
+
+}
+div h2 
+{
+    font-size: 30px;
+    color: springgreen;
+    font-weight: 900;
+    text-decoration: underline white 2px ; 
+   
+}
+body 
+{
+    background-image:url(../Projet/l.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.i:hover,.r:hover
+{
+    border-color: springgreen;
+    border-radius: 24px;
+    height: 35px;
+    width: 120px;
+    color: springgreen;
+    background-color: #ffffff;
+}

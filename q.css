@@ -1,0 +1,109 @@
+fieldset 
+{
+    border-color: rgba(255, 255, 255, 0);
+    border-width: 4px;
+    border-radius: 24px;
+    width: 60%;
+   text-align: center;
+   padding-top: 50px;
+   letter-spacing: 3px;
+   margin-left: 18%;
+  background-color: rgba(255, 255, 255, 0);
+}
+legend{
+    color: blanchedalmond;
+    font-size: 40px;
+    font-weight: 900;
+}
+body 
+{
+    background: -webkit-linear-gradient(left,#000000,#00587a);
+    flex-direction: column;
+}
+
+img 
+{
+    border-radius: 20px;
+    border-color: rgb(0, 0, 0);
+}
+
+.b1,.b2,.b3
+{
+    border-radius: 24px;
+    border-color: springgreen;
+    border-style: solid;
+    background-color: springgreen;
+    color: white;
+    width: 180px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+label 
+{
+    font-size: 35px;
+    color: white;
+    font-family:  'Times New Roman', serif;
+    font-weight: 900;
+}
+input[type="radio"]
+{
+    position: relative;
+    width: 120px;
+    height: 40px;
+    outline: none;
+    background: #222;
+    -webkit-appearance: none;
+    cursor: pointer; 
+    border-radius: 20px;
+    box-shadow: -5px -5px 20px rgb(255, 255, 255,0,1),
+               5px 5px 10px rgba(0, 0, 0, 1),
+               inset -2px -2px 5px rgba(255, 255, 255, 0.1),
+               inset 2px 2px 5px rgba(0,0,0,0.5),
+               0 0 0 2px #1f1f1f;   
+    transition: 0.5s;
+}
+input[type="radio"]:checked
+{
+    background-color: #20B7FF;
+}
+input[type="radio"]::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 40px;
+    background: linear-gradient(to left,#000 ,#555);
+    border-radius: 20px;
+    box-shadow: 0 0 0 1px black;
+    transform: scale(0.98,0.96);
+    transition: 0.5s;
+}
+input[type="radio"]:checked::before
+{
+    left: 40px;
+}
+input[type="radio"]::after
+{
+    content: '';
+   position: absolute;
+    margin-top: 18px;
+    left:65px;
+     top: clac(50% -2px);
+    width: 5px;
+    height: 5px;
+   border-radius: 50%;
+   background:  #555;
+   transition: 0.5s;
+
+}
+input[type="radio"]:checked::after 
+{
+    left: calc(65px+40px);
+    background:#63CDFF ;
+    box-shadow:0 0 5px #63CDFF,
+    0 0 15px #63CDFF,
+    0 0 30px #63CDFF;
+}

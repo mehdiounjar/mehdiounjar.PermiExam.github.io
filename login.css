@@ -1,0 +1,124 @@
+body {
+    background: linear-gradient(to top right , rgb(0, 102, 255) ,green);
+}
+.i
+{
+    border-style: solid;
+    border-color: rgba(5, 5, 0, 0.993);
+    height: 80%;
+    width: 25%;
+    background-image: url(pr.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size:cover;
+    margin-right: 0%;
+    margin-top: 70px ;
+    padding-left: 0px;
+    border-right: none;
+    box-shadow:  0 35px 40px #0a1516c9;
+}
+.b
+{
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0);
+    height: 80%;
+    width:300px;
+   background-color: rgba(42, 130, 165, 0);
+   position: absolute;
+   float: right;
+   border-left: none;
+   margin-left: 345px;
+   margin-right: 10px;
+   margin-top: 70px ;
+   padding-left: 50px;
+   padding-right: 50px;
+   text-align: center;
+   box-shadow:  0 50px 40px #0a151693;
+  
+}
+
+.t
+{
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0);
+    height: 100%;
+    width: 400px;
+    margin-left: 20%;
+    max-width: 80%;
+    margin-top: 100px;
+    margin-top: 70px ;
+    background-color: rgba(160, 240, 80, 0);
+    z-index: 1000;
+}
+div {
+    display: inline;
+    z-index: 1000;
+}
+#password,#username
+{
+    border-radius: 24px;
+    height: 25px;
+    color: hsl(0, 0%, 35%);
+    padding: 5px;
+    border-color: rgb(255, 255, 255);
+    border-width: 2px;
+    width: 250px;
+    background-color: rgba(255, 235, 205, 0);
+    font-weight: bolder;
+
+
+}
+.l,.s 
+{
+    border-radius: 24px;
+    height: 29px;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    border-color: rgb(255, 255, 255);
+    border-width: 2px;
+    width: 140px;
+    background-color: #97B9B5;
+    font-weight: bolder;
+
+}
+form 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color:#00cba9;
+    padding-top: 80px;
+}
+h3
+{
+font-family: monospace;
+font-size: 30px;
+text-decoration: underline;
+color:#00cba9;
+
+}
+body 
+{
+    background-image:url(be.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.l:hover,.s:hover 
+{
+    background-color: #6afcb8;
+    height: 36px;
+    width: 150px;
+    border-color: white;
+}
+#password:hover,#username:hover 
+{
+    background-color: #ffffff;  
+    height: 30px;
+    width: 280px;
+    border-color: white;
+}
+.svg 
+{
+margin-bottom: 0;
+margin-top: 300px;
+}
